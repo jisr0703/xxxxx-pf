@@ -1,0 +1,32 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    width: 80px;
+    padding: 10px;
+}
+
+.nav-anc{
+    transition: color 0.3s ease-in-out
+}
+
+.nav-anc:hover{
+    color: white;
+}
